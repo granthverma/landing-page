@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+/*  font-family: 'Montserrat', 'serif';
+ background-color: rgb(8, 201, 255); */
+
+body {
+
+    background: linear-gradient(270deg ,#0acbf6 0%,#1c14f3 100%);
+    color: #ffffff;
+  
+}
+h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20%;
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-weight: 400;
+}
+span {
+    color: black;
+    font-size: 65px;
+    font-weight: 900;
+}
+p {
+   
+    text-align: center;
+    margin-top: -20px;
+    font-size: 18px;
+    letter-spacing: 15px;
+   
+}
+
+button {
+    margin: auto;
+    display: block;
+}
+/* mdn 
+  whenever you target class you use . 
+               target id    you use # or $
+*/
+
+.btn {
+    background-color: transparent;
+    border: 3px solid #1f1f1f;
+    border-radius: 0.6em;
+    color: #1f1f1f;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 1.2em 2.5em;
+    cursor: grab;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Montserrat";
+
+
+}
+
+
+.btn:hover {
+    color: #ffffff;
+    outline: 0;
+}
+.level{
+    transition: box-shadow 300ms ease-in-out ,color 300ms easy-in-out;
+}
+.level:hover {
+    box-shadow: 0 0 40px 40px  #1f1f1f inset;
+}
+.ft{
+    position: fixed;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 1px;
+
+}
+.gc {
+   font-size: 10px;
+   text-align: center;
+   position: fixed;
+   margin-top: 90px;
+   font-family: "Montserrat";
+   margin-left: 38%;
+   letter-spacing: 1px;
+
+   
+
+
+}
+
+
